@@ -1,0 +1,168 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@400;500;700&family=Outfit:wght@400;500;600;700&family=Roboto:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300, 400, 600;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    width: 380px;
+    height: 660px;
+    border-radius: 14px;
+}
+
+.image-equilibrium {
+    width: 85%;
+    margin-top: 25px;
+    margin-left: 29.5px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 26px;
+    margin-left: 31px;
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 29px;
+    width: 350px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.icon-ethereum {
+    margin-left: 29px;
+    margin-top: 30px;
+    width: 14px;
+}
+
+.icon-ethereum-text {
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    display: block;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-clock {
+    margin-left: 120px;
+    width: 18px;
+    margin-top: 30px;
+}
+
+.icon-clock-text {
+    margin-top: 28px;
+    margin-left: 6px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.line {
+    width: 325px;
+    margin-top: 28px;
+    margin-left: 30px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.avatar {
+    width: 36px;
+    margin-top: 20px;
+    margin-left: 29px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.name-avatar {
+    margin-top: -35px;
+    margin-left: 82px;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    margin-left: 2px;
+}
+
+@media (max-width: 376px) {
+    .container {
+    width: 340px;
+    height: 575px;
+    }
+
+    .image-equilibrium {
+        margin-top: 24px;
+        margin-left: 26px;
+    }
+    
+    h1 {
+        margin-top: 15px;
+    }
+    
+    .info {
+        margin-top: 18px;
+        width: 300px;
+        font-size: 18px;
+    }
+    
+    .icon-ethereum {
+        margin-top: 18px;
+    }
+    
+    .icon-ethereum-text {
+        width: 110px;
+        margin-top: 16px;
+    }
+    
+    .icon-clock {
+        margin-left: 50px;
+        width: 23px;
+        margin-top: 18px;
+    }
+    
+    .icon-clock-text {
+        margin-top: 16px;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+    
+    .line {
+        width: 285px;
+        margin-top: 22px;
+        margin-left: 32px;
+    }
+    
+    .avatar {
+        margin-top: 18px;
+    }
+    
+    .name-avatar {
+        margin-top: -36px;
+    }
+}
